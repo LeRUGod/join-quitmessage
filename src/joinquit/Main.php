@@ -70,7 +70,7 @@ $player->sendTip("§c[§f-§c] §f{$na}(§6{$count}§f명)");
 
 
 	public function onCommand(CommandSender $player, Command $command, string $label, array $args): bool {
-		if (strtolower ( $command->getName () ) == "서버퇴장"){
+		if ($command->getName() === "서버퇴장"){
 			$player->kick("서버에서 퇴장하셨습니다.\n밴드 가입 부탁드립니다!");
 			return true;
 		}
