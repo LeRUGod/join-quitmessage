@@ -1,0 +1,15 @@
+name: joinquitmessage
+main: joinquit\Main
+author: "RoMo_Official"
+version: "1.0.0 beta"
+api:
+- 3.0.0
+
+commands:
+  서버퇴장:
+    permission: practice.commands
+    default: true
+
+permissions:
+  practice.commands:
+    default: true
